@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random User</title>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- Line Icons -->
+    <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet">
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <main>
+            <div class="user-main">
+                <img class="user-main-image" src="assets/images/default-user.png" alt="">
+                <div class="user-main-name user-info"></div>
+                <div class="user-main-email user-info"></div>
+                <div class="user-main-phone user-info"></div>
+                <div class="user-main-country user-info"></div>
+
+                <div class="icon-div">
+                    <div class="icon-name icon" onmouseover="mouseOver('user-main-name')" onmouseout="mouseOut('user-main-name')"><i class="lni lni-user"></i></div>
+
+                    <div class="icon-email icon" onmouseover="mouseOver('user-main-email')" onmouseout="mouseOut('user-main-email')"><i class="lni lni-envelope"></i></div>
+
+                    <div class="icon-phone icon" onmouseover="mouseOver('user-main-phone')" onmouseout="mouseOut('user-main-phone')"><i class="lni lni-phone"></i></div>
+
+                    <div class="icon-country icon" onmouseover="mouseOver('user-main-country')" onmouseout="mouseOut('user-main-country')"><i class="lni lni-home"></i></div>
+                </div>
+
+                <div class="random-quote"></div>
+            </div>
+    </main>
+    <script src="assets/app.js"></script>
+</body>
+
+</html>
