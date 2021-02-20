@@ -14,6 +14,7 @@ main{
     place-items: center;
     height: 60vh;
     width: 100%;
+    padding-top: 30px;
     background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.3), rgba(0, 0, 255, 0.3), rgba(0, 128, 0, 0.3), rgba(255, 0, 0, 0.3));
     animation:  animation 10s linear infinite;
     background-size: 300%;
